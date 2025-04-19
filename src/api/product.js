@@ -1,7 +1,7 @@
 // frontend/src/api/products.js
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/api/products"; // Change this to your deployed backend URL
+const BASE_URL = "https://agrocartbackend.onrender.com/api/products"; // Change this to your deployed backend URL
 
 // Fetch all products
 export const getProducts = async () => {

@@ -17,7 +17,7 @@ function App() {
     <div className="min-h-screen bg-gray-50">
       <Navbar /> {/* Navbar for navigation */}
       <div className="container mx-auto px-4 py-6">
-        <Routes>
+        <Routes basename="/">
           <Route path="/" element={<ProductCataloguePage />} />
           <Route path="/order" element={<OrderForm />} />{" "}
           {/* Order form page */}

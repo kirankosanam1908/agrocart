@@ -18,7 +18,7 @@ function App() {
       <Navbar /> {/* Navbar for navigation */}
       <div className="container mx-auto px-4 py-6">
         <Routes>
-          <Route path="/" element={<ProductCataloguePage />} />
+          <Route exact path="/" element={<ProductCataloguePage />} />
           <Route path="/order" element={<OrderForm />} />{" "}
           {/* Order form page */}
           <Route path="/status" element={<OrderStatus />} />{" "}

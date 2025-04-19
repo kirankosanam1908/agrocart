@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/orders";
+const API_URL = "https://agrocartbackend.onrender.com/api/orders";
 
 export const getAllOrders = async () => {
   try {
